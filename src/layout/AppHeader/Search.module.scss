@@ -1,0 +1,25 @@
+.searchIcon {
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.select {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  display: inline-block;
+  font-size: 18px;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  transition: width 0.3s;
+  vertical-align: middle;
+  width: 0;
+  border-bottom: 1px solid #d9d9d9;
+
+  &.show {
+    width: 210px;
+    margin-left: 10px;
+  }
+}

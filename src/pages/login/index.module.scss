@@ -1,0 +1,35 @@
+.login_left {
+  background-color: #536dfe;
+  height: 100vh;
+
+  .login_img {
+    width: 165px;
+    margin-bottom: 20px;
+  }
+  .login_text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 80px;
+  }
+}
+
+.login_right {
+  background-color: #f6f7ff;
+  height: 100vh;
+
+  .login_tab {
+    width: 20rem;
+  }
+}
+
+:global(.ant-tabs .ant-tabs-tab-btn) {
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+:global(.ant-tabs .ant-tabs-tab) {
+  width: 10rem;
+  text-align: center;
+  display: block;
+}

@@ -1,0 +1,27 @@
+.header_left {
+  line-height: 50px;
+}
+
+.header_right {
+  .user_avatar {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+}
+
+.wrap {
+  :global {
+    .ant-layout-header {
+      background-color: #fefefe;
+      padding-inline: unset;
+      height: 50px;
+      line-height: 50px;
+      padding: 0 1.5rem;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    }
+  }
+}

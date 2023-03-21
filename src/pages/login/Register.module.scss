@@ -1,0 +1,43 @@
+.title {
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+
+.wrap {
+  .btn {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.25rem;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.75;
+  }
+  .icon {
+    width: 2rem;
+  }
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.create_btn {
+  width: 100%;
+  height: 2.625rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+:global(.ant-input) {
+  height: 45px;
+}
+
+:global(.ant-input-password .ant-input) {
+  height: 36px;
+}
